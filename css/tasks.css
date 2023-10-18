@@ -31,7 +31,7 @@
 
 .tasks__button--toggleDone {
     background-color: hsl(120, 60%, 35%);
-    color:hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 0%);
 }
 
 .tasks__button--toggleDone:hover {
