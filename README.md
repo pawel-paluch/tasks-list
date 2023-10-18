@@ -2,6 +2,7 @@
 ## Description
 
 **This is a task list.  It allows adding and removing tasks from the list.**.
+Now you will never forget about important events again!
 
  The technologies used are: 
  - HTML;
