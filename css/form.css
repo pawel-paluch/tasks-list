@@ -1,0 +1,39 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 20px;
+
+}
+
+@media (max-width: 767px) {
+   .form {
+  grid-template-columns: 1fr;
+   }
+
+}
+
+.form__text {
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 87%);
+}
+
+.form__text:focus {
+  border: 1px solid hsl(180, 100%, 25%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.form__button {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  border: 0;
+  padding: 10px 35px;
+  border-radius: 0;
+  background-color: hsl(180, 100%, 25%);
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+}
+
+.form__button:hover {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+}
